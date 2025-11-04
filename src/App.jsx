@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import HeroCover from './components/HeroCover.jsx';
 import TodoWidget from './components/TodoWidget.jsx';
 import PomodoroTimer from './components/PomodoroTimer.jsx';
-import QuoteWall from './components/QuoteWall.jsx';
+import RoutineTracker from './components/RoutineTracker.jsx';
 import { Moon, Sun, Droplet } from 'lucide-react';
 
 const THEME_KEY = 'plannerwall_theme_v1';
@@ -68,7 +68,7 @@ export default function App() {
         <main className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2 space-y-6">
             <TodoWidget />
-            <QuoteWall />
+            <RoutineTracker />
           </div>
           <div className="lg:col-span-1">
             <PomodoroTimer />
